@@ -1,0 +1,4 @@
+[Fri Nov 04 11:08:44.842813 2016] [ssl:warn] [pid 102:tid 140631233292096] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 04 11:08:44.842930 2016] [lbmethod_heartbeat:notice] [pid 102:tid 140631233292096] AH02281: Failed to lookup provider 'shm' for 'slotmem'. Maybe you need to load mod_slotmem_shm?
+[Fri Nov 04 11:08:44.844642 2016] [mpm_event:notice] [pid 102:tid 140631233292096] AH00489: Apache/2.4.20 (Unix) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Nov 04 11:08:44.844689 2016] [core:notice] [pid 102:tid 140631233292096] AH00094: Command line: 'httpd -D NO_DETACH -c Include /app/vendor/heroku/heroku-buildpack-php/conf/apache2/heroku.conf'

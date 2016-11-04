@@ -1,0 +1,32 @@
+{
+    "config": {
+        "cache-files-ttl": 0,
+        "discard-changes": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": false,
+    "provide": {
+        "heroku-sys\/cedar": "14.2016.09.19"
+    },
+    "require": {
+        "heroku-sys\/php": "^5.5.17",
+        "heroku-sys\/apache": "^2.4.10",
+        "heroku-sys\/nginx": "~1.8.0"
+    },
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "path",
+            "url": "\/app\/tmp\/buildpacks\/2eb21e9db12e182f49d4d2f512fbbb1b5c0e2f2cc7316a571d4c31b476916dc7f9372d5a597490761325ac6b221f8f381804151a7b10729a06a6f76e022e52de\/support\/installer\/",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "composer",
+            "url": "https:\/\/lang-php.s3.amazonaws.com\/dist-cedar-14-stable\/"
+        }
+    ]
+}
