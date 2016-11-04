@@ -1,0 +1,61 @@
+/* CSS3 STYLE PROJECT */
+.rise-view {
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+}
+.rise-view .rise-mask, .rise-view .content {  
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.rise-view img {
+   display: block;
+   position: relative;
+   width: 100%;
+}
+.rise-view a.info { 
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+}
+
+/* EFFECTS */
+.rise-effect .rise-mask {
+    display: none;
+}
+
+.rise-title-container {
+	height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+h2.rise_item_title, .rise-project-excerpt p {  
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 0.5em 0.75em; 
+	color: #ffffff; 
+	font-size: 1.85em;  
+	line-height: 1;
+	z-index:10; 
+} 
+
+.rise-project-excerpt p {
+	font-size:13px; 
+	color:#ffffff; 
+	text-align:left; 
+} 
+
+.rise_item_image { 
+	position: relative; 
+	top: 50%;
+	min-height: 100%;
+	width: 100%; 
+}

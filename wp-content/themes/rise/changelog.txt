@@ -1,0 +1,13 @@
+== Changelog ==
+
+= 1.0.17 =
+* Update: styled the 404 and Search page templates to match theme styles 
+
+= 1.0.16 =
+* Fix: removed http from Skype social icons
+
+= 1.0.14 =
+* Update: Tested with WordPress 4.5, Updating Font Awesome icons to 4.6, Added Snapchat and Weibo social icon options
+
+= 1.0.0 =
+* New Theme!
